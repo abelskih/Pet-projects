@@ -92,8 +92,13 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-*/bin/
-*/obj/
+
+# .NET
+bin/
+obj/
+**/bin/
+**/obj/
+.vs/
 
 # mkdocs documentation
 /site
